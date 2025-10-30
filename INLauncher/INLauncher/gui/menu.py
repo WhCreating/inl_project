@@ -4,6 +4,9 @@ import json
 import os
 import time
 import configparser
+import requests
+from github import Github
+
 
 # Пути
 launcher_options = os.path.join("configs", "launcher_options.ini")
@@ -52,8 +55,16 @@ def set_jvm_args(new_jvm) -> None:
 
 
 def home_bar(ma: MllApi):
-    return ft.Text(
-        value="Тут будут новости minecraft"
+    file = "https://github.com/WhCreating/inl_project/blob/main/home_page_info/home_page.txt"
+
+    g = Github()
+
+    repo = g.get_repo("WhCreating/inl_project")
+
+    file = repo.get_contents("home_page_info/home_page.txt")
+    #print(file.decoded_content.decode("utf-8"))
+    return ft.Markdown(
+        value=file.decoded_content.decode()
     )
 
 class Image_shot():

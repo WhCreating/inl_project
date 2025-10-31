@@ -1,8 +1,1 @@
-{
-    "types": [
-        "ely.by",
-        "microsoft",
-        "offline"
-    ],
-    "users": []
-}
+{"types": ["ely.by", "microsoft", "offline"], "users": [{"uuid": "2f1c4687cc154eb6a35249f5aa330362", "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE3NTQ1ODc5OTAsInN1YiI6ImVseXw0MDY1Nzg4IiwiZXhwIjoxNzU0NzYwNzkwLCJzY29wZSI6Im9idGFpbl9vd25fYWNjb3VudF9pbmZvIG1pbmVjcmFmdF9zZXJ2ZXJfc2Vzc2lvbiIsImVseS1jbGllbnQtdG9rZW4iOiJRMTB4ZnNYSG1LUzRYSy1FYUFwQ3RTd0U5UUlYWDZFbWhjR194bFdIS21ESDBjUlZDYm13UzF3Ynp1Mnl0Z2dKMHh2a1FKbFIwX3p6UWN1eS1Wa3FITjJaQXNkVmNYc1llVTFZQ3cifQ.p86cc_jG51igZEhpHa0mpKZ835zXFr4K6soKYcS4iP8S8AuFYIf1zmX0kYNbFVLz1G2f0xPA-D1Q69WcQpIjlw", "username": "LooooZ", "type": "ely.by"}, {"uuid": "40604647-1c78-4482-8f7f-6d736355151b", "token": "off", "username": "BRO", "type": "offline"}]}

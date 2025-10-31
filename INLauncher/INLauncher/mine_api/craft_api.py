@@ -126,7 +126,9 @@ class MllApi:
             encoding="UTF-8"
         )
 
+
         self.proc.wait()
+        
 
     def stop_mine(self):
         self.proc.terminate()
